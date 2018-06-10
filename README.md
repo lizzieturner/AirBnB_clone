@@ -102,7 +102,7 @@ At this time, there are no known bugs.
 
 ## Authors
 
-Lizzie Turner | [GitHub](https://github.com/lizzieturner) | [Twitter](https://twitter.com/_lizzieturner_)
+Lizzie Turner | [GitHub](https://github.com/lizzieturner) | [Twitter](https://twitter.com/_lizzieturner_)   
 Sonia Chevli | [GitHub](https://github.com/SoniaChevli) | [Twitter](https://twitter.com/SuperSaiyanSone)
 
 ## License
