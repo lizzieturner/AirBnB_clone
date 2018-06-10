@@ -1,6 +1,6 @@
 # AirBnB Clone
 
-![air bnb clone](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/6/65f4a1dd9c51265f49d0.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJIMMWEC6CH2PXSCQ%2F20180610%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20180610T222756Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4d16d04066eccf8a6a7bd8f44c3e0148ab5c3fcb1fabd4f99e34c96c2acb2df4)
+![air bnb clone](https://s3.amazonaws.com/intranet-projects-files/holbertonschool-higher-level_programming+/263/HBTN-hbnb-Final.png)
 
 
 ## Table of Contents
