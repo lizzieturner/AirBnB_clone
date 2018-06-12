@@ -7,13 +7,12 @@ from models.base_model import BaseModel
 class FileStorage:
     '''FileStorage class'''
 
-    def __init__ (self):
+    def __init__(self):
         '''
         initation of FileStorage class
         '''
         self.__file_path = 'file.json'
         self.__objects = {}
-
 
     def all(self):
         '''
@@ -29,7 +28,8 @@ class FileStorage:
         Args:
         object
         '''
-        self.__objects.update({'{}.{}'.format(obj.__class__.__name__, obj.id): obj})
+        self.__objects.update({'{}.{}'.format
+                               (obj.__class__.__name__, obj.id): obj})
 
     def save(self):
         '''
@@ -38,11 +38,10 @@ class FileStorage:
         newdict = {}
         with open(self.__file_path, mode='w', encoding='utf-8') as f:
 
-            for k,v in self.__objects.items():
+            for k, v in self.__objects.items():
                 newdict[k] = v.to_dict()
 
             json.dumps(newdict, f)
-
 
     def reload(self):
         '''
