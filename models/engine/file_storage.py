@@ -28,8 +28,7 @@ class FileStorage:
         Args:
         object
         '''
-        self.__objects.update({'{}.{}'.format
-                               (obj.__class__.__name__, obj.id): obj})
+        self.__objects[obj.__class__.__name__ + ".id"] = obj
 
     def save(self):
         '''
@@ -37,11 +36,9 @@ class FileStorage:
         '''
         newdict = {}
         with open(self.__file_path, mode='w', encoding='utf-8') as f:
-
             for k, v in self.__objects.items():
                 newdict[k] = v.to_dict()
-
-            json.dumps(newdict, f)
+            json.dump(newdict, f)
 
     def reload(self):
         '''
