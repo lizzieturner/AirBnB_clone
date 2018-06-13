@@ -19,7 +19,7 @@ class HBNBCommand(cmd.Cmd):
 
     def help_quit(self):
         ''' help quit '''
-        print ("Quit command to exit the program\n")
+        print("Quit command to exit the program\n")
 
     def do_quit(self, arg):
         ''' quit interpreter '''
@@ -177,6 +177,7 @@ class HBNBCommand(cmd.Cmd):
     def help_update(self):
         '''help update'''
         print("update command to update attributes")
+
 
 if __name__ == '__main__':
     HBNBCommand().cmdloop()
