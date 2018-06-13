@@ -1,18 +1,14 @@
 #!/usr/bin/python3
 ''' FileStorage module '''
 import json
-from models.base_model import BaseModel
 
+import models
 
 class FileStorage:
     '''FileStorage class'''
 
-    def __init__(self):
-        '''
-        initation of FileStorage class
-        '''
-        self.__file_path = 'file.json'
-        self.__objects = {}
+    __file_path = 'file.json'
+    __objects = {}
 
     def all(self):
         '''
@@ -28,7 +24,7 @@ class FileStorage:
         Args:
         object
         '''
-        self.__objects[obj.__class__.__name__ + ".id"] = obj
+        self.__objects["{}.{}".format(obj.__class__.__name__, obj.id)] = obj
 
     def save(self):
         '''
@@ -47,5 +43,6 @@ class FileStorage:
         try:
             with open(self.__file_path, mode='r', encoding='utf-8') as f:
                 self.__objects = json.load(f)
+
         except:
             pass
