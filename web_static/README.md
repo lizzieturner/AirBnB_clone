@@ -37,16 +37,16 @@ An introductory project on:
 
 **[6-index.html](6-index.html)**, **[styles/6-filters.css](styles/6-filters.css)** - Add contextual dropdown menus to locations and amenities filters   
 
-**[7-index.html](7-index.html)**, **[styles/7-places.css](styles/7-places.css)** - Add places section   
+**[7-index.html](7-index.html)**, **[styles/7-places.css](styles/7-places.css)** - Add Places section   
 
-**[8-index.html](8-index.html)**, **[styles/8-places.css](styles/8-places.css)** - Add more information to the places section   
+**[8-index.html](8-index.html)**, **[styles/8-places.css](styles/8-places.css)** - Add more information to the Places section   
 
 ### ADVANCED
 
-**[100-index.html](100-index.html)**, **[styles/100-places.css](styles/100-places.css)** - Add even more information to the places section   
+**[100-index.html](100-index.html)**, **[styles/100-places.css](styles/100-places.css)** - Add even more information to the Places section   
 
-**[101-index.html](101-index.html)**, **[styles/101-places.css](styles/101-places.css)** - Improve the places section by using Flexible Boxes   
+**[101-index.html](101-index.html)**, **[styles/101-places.css](styles/101-places.css)** - Improve the Places section by using Flexible Boxes   
 
 **[102-index.html](102-index.html)**. **[styles/102-common.css](styles/102-common.css)**, **[styles/102-header.css](styles/102-header.css)**, **[styles/102-footer.css](styles/102-footer.css)**, **[styles/102-filters.css](styles/102-filters.css)**, **[styles/102-places.css](styles/102-places.css)** - Add [responsive design](https://developer.mozilla.org/en-US/Apps/Progressive) to display correctly on mobile and small screens   
 
-**[103-index.html](103-index.html)**, (103-index.html)**. **[styles/103-common.css](styles/103-common.css)**, **[styles/103-header.css](styles/103\header.css)**, **[styles/103-footer.css](styles/103-footer.css)**, **[styles/103-filters.css](styles/103-filters.css)**, **[styles/103-places.css](styles/103-places.css)** - Add [Accessibility support](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)   
+**[103-index.html](103-index.html)**, **[styles/103-common.css](styles/103-common.css)**, **[styles/103-header.css](styles/103\header.css)**, **[styles/103-footer.css](styles/103-footer.css)**, **[styles/103-filters.css](styles/103-filters.css)**, **[styles/103-places.css](styles/103-places.css)** - Add [Accessibility support](https://developer.mozilla.org/en-US/docs/Learn/Accessibility)   
